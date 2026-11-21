@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}">
+  <link rel="canonical" href="{{canonical}}">
+  <meta property="og:title" content="{{title}}">
+  <meta property="og:description" content="{{description}}">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#800000">
+  <link rel="icon" href="{{root}}assets/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="{{root}}assets/logo.png">
+  <meta property="og:image" content="https://www.uchicagoailab.com/assets/logo.png">
+  <link rel="alternate" type="application/rss+xml" title="UChicago AI Lab" href="{{root}}feed.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{root}}assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <div class="container site-header__inner">
+      <a class="brand" href="{{root}}index.html" aria-label="UChicago AI Lab home">
+        <img class="brand__mark" src="{{root}}assets/logo.png" alt="" width="31" height="36">
+        <span class="brand__text">
+          <span class="brand__name">UChicago AI Lab</span>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <span class="sr-only">Menu</span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" data-nav>
+        <a href="{{root}}about.html"{{active_about}}>About</a>
+        <a href="{{root}}projects.html"{{active_projects}}>Projects</a>
+        <a href="{{root}}blog/index.html"{{active_blog}}>Announcements</a>
+        <a class="btn btn--small" href="{{root}}index.html#contact"{{active_contact}}>Get involved</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+{{content}}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__grid">
+        <div>
+          <p class="footer-brand"><img src="{{root}}assets/logo.png" alt="" width="34" height="39"><span>UChicago <em>AI Lab</em></span></p>
+          <p class="muted">Teaching future lawyers to build AI that makes the law work for everyone.</p>
+        </div>
+        <div>
+          <p class="footer-label">Explore</p>
+          <a href="{{root}}about.html">About</a>
+          <a href="{{root}}projects.html">Projects</a>
+          <a href="{{root}}blog/index.html">Announcements</a>
+          <a href="{{root}}feed.xml">RSS</a>
+        </div>
+        <div>
+          <p class="footer-label">Visit</p>
+          <p>The University of Chicago Law School<br>1111 E 60th St<br>Chicago, IL 60637</p>
+        </div>
+        <div>
+          <p class="footer-label">Contact</p>
+          <a href="mailto:contact@uchicagoailab.com">contact@uchicagoailab.com</a>
+          <a href="https://www.law.uchicago.edu" rel="noopener">law.uchicago.edu ↗</a>
+        </div>
+      </div>
+      <div class="site-footer__base">
+        <span>© {{year}} The University of Chicago Law School AI Lab</span>
+        <span class="mono">Built in Hyde Park · 41.7886° N, 87.5987° W</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="{{root}}assets/main.js" defer></script>
+</body>
+</html>
