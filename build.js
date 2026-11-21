@@ -58,7 +58,17 @@ function copyDir(from, to) {
   }
 }
 
-const layout = fs.readFileSync(path.join(SRC, "layout.html"), "utf8");
+// Version tag for cache-busting: changes whenever the CSS or JS changes
+const ASSET_VERSION = require("crypto")
+  .createHash("sha1")
+  .update(fs.readFileSync(path.join(SRC, "assets", "styles.css")))
+  .update(fs.readFileSync(path.join(SRC, "assets", "main.js")))
+  .digest("hex")
+  .slice(0, 8);
+
+const layout = fs.readFileSync(path.join(SRC, "layout.html"), "utf8")
+  .replace("assets/styles.css", `assets/styles.css?v=${ASSET_VERSION}`)
+  .replace("assets/main.js", `assets/main.js?v=${ASSET_VERSION}`);
 
 function render({ title, description, content, root, active, outFile, canonical }) {
   const navKeys = ["about", "projects", "blog", "contact"];
