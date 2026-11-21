@@ -53,20 +53,25 @@ The site is hosted on GitHub Pages. `.github/workflows/deploy.yml` builds the si
 
 The custom domain (`www.uchicagoailab.com`) is written into the build as a `CNAME` file. In the repo's **Settings → Pages**, the source should be **GitHub Actions**, and **Enforce HTTPS** should be on.
 
-## Domain DNS (Squarespace Domains)
+## Domain DNS (Namecheap)
 
-The domain is registered at Squarespace Domains. Under **Domains → uchicagoailab.com → DNS**:
+The domain is moving from Squarespace Domains to Namecheap. When the transfer finishes, Squarespace's DNS stops answering for the domain, so these records must exist at Namecheap or both the website **and email** will go down.
 
-1. Remove the Squarespace website records: the four `A` records on `@` (198.185.159.x and 198.49.23.x) and the `www` CNAME to `ext-sq.squarespace.com`. If Squarespace shows them as a "Squarespace Defaults" preset, delete that preset.
-2. Add these custom records:
-   - `A` record on `@` → `185.199.108.153`
-   - `A` record on `@` → `185.199.109.153`
-   - `A` record on `@` → `185.199.110.153`
-   - `A` record on `@` → `185.199.111.153`
-   - `CNAME` record on `www` → `YOUR-GITHUB-USERNAME.github.io`
-3. **Leave the Google Workspace email records alone:** the `MX` record (`smtp.google.com`) and the `TXT` SPF record. Removing them would break email on the domain.
+In Namecheap, go to **Domain List → uchicagoailab.com → Manage**. Set **Nameservers** to **Namecheap BasicDNS**. Then, under **Advanced DNS → Host Records**, add:
 
-GitHub issues the HTTPS certificate automatically once DNS resolves, usually within an hour. After the new site is live, cancel the Squarespace **website** subscription but keep the **domain** registration. If you later move the domain to Namecheap, recreate the same records there, including the email ones.
+| Type  | Host | Value |
+|-------|------|-------|
+| A     | @    | 185.199.108.153 |
+| A     | @    | 185.199.109.153 |
+| A     | @    | 185.199.110.153 |
+| A     | @    | 185.199.111.153 |
+| CNAME | www  | YOUR-GITHUB-USERNAME.github.io. |
+
+Delete Namecheap's default parking records (the `URL Redirect` on `@` and the `CNAME` on `www` to `parkingpage.namecheap.com`).
+
+**Keep Google Workspace email working.** Under **Mail Settings**, choose **Custom MX** and add `MX` on `@` → `smtp.google.com`, priority `1`. Then add a `TXT` record on `@` → `v=spf1 include:_spf.google.com ~all`. If Google Workspace shows a DKIM record for the domain (Admin console → Apps → Gmail → Authenticate email), add that `TXT` record too.
+
+GitHub issues the HTTPS certificate automatically once DNS resolves, usually within an hour. After the new site is live, cancel the Squarespace **website** subscription.
 
 ## Customizing
 
