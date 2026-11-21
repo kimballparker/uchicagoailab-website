@@ -51,7 +51,9 @@ The blog index, the "Latest writing" cards on the home page, and the RSS feed (`
 
 The site is hosted on GitHub Pages. `.github/workflows/deploy.yml` builds the site and publishes it every time you push to `main`, so publishing a post means committing a new `.md` file to `posts/`. You can do that right in GitHub's web editor.
 
-The custom domain (`www.uchicagoailab.com`) is written into the build as a `CNAME` file. In the repo's **Settings → Pages**, the source should be **GitHub Actions**, and **Enforce HTTPS** should be on.
+Until the domain is connected, the site is live at https://kimballparker.github.io/uchicagoailab-website/.
+
+To connect the domain once the DNS records below are in place: in the repo, open **Settings → Pages**. Enter `www.uchicagoailab.com` under **Custom domain**, click **Save**, wait for the DNS check to pass, then tick **Enforce HTTPS**. The source should stay set to **GitHub Actions**.
 
 ## Domain DNS (Namecheap)
 
@@ -65,7 +67,7 @@ In Namecheap, go to **Domain List → uchicagoailab.com → Manage**. Set **Name
 | A     | @    | 185.199.109.153 |
 | A     | @    | 185.199.110.153 |
 | A     | @    | 185.199.111.153 |
-| CNAME | www  | YOUR-GITHUB-USERNAME.github.io. |
+| CNAME | www  | kimballparker.github.io. |
 
 Delete Namecheap's default parking records (the `URL Redirect` on `@` and the `CNAME` on `www` to `parkingpage.namecheap.com`).
 
