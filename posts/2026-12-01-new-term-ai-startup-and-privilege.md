@@ -29,11 +29,6 @@ Privilege, whether with a lawyer, a doctor, or a therapist, is a person-to-perso
 
 When someone chats with an AI assistant, there's no person on the other side. They may be sharing sensitive legal, medical, or emotional details, but that conversation generally isn't protected the way the same conversation with a lawyer, doctor, or therapist would be. Meanwhile, more and more people are turning to AI for legal help, medical help, and emotional support.
 
-<figure>
-  <img src="../assets/posts/privilege-gap.svg" alt="Three panels. A conversation with a lawyer, doctor, or therapist is privileged. A conversation with an AI assistant today generally isn't protected, because there's no person on the other side. The Lab's platform aims to protect that conversation." loading="lazy">
-  <figcaption>The privilege gap, and the problem the Lab is setting out to close.</figcaption>
-</figure>
-
 This year, the Lab will build an AI platform designed to protect that information, so people can get help from AI without giving up the privilege they would have with a human professional.
 
 "Privilege and AI is one of the trickiest, and most fascinating, problems in law today," Parker said. "People are revealing sensitive information to AI. We want to build something that protects them when they do."
