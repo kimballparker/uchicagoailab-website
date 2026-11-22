@@ -133,7 +133,7 @@ for (const f of fs.readdirSync(path.join(SRC, "pages")).filter((f) => f.endsWith
 // Blog index
 render({
   title: "Writing",
-  description: "Essays, build notes, and thought pieces from the UChicago AI Lab.",
+  description: "Announcements, webinars, build logs, and thought pieces from the UChicago AI Lab.",
   root: "../",
   active: "blog",
   outFile: path.join(DIST, "blog", "index.html"),
@@ -143,7 +143,7 @@ render({
     <div class="container">
       <p class="eyebrow"><span class="dot"></span>Writing</p>
       <h1 class="display">Notes from the Lab</h1>
-      <p class="lede">Essays, build logs, and thought pieces on AI, legal technology, and access to justice.</p>
+      <p class="lede">Announcements, webinars, build logs, and thought pieces on AI, legal technology, and access to justice.</p>
     </div>
   </section>
   <section class="section section--paper">
