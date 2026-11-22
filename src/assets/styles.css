@@ -527,3 +527,8 @@ p { margin: 0 0 1em; }
 }
 .prose .video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 .prose .video-caption { margin-top: 12px; font-family: var(--mono); font-size: 0.74rem; color: var(--text-muted); }
+
+/* ---------- figures (blog posts) ---------- */
+.prose figure { margin: 2.2em 0; }
+.prose figure img { width: 100%; height: auto; border-radius: 18px; box-shadow: 0 1px 0 var(--line), 0 10px 30px -18px rgba(18, 8, 8, 0.35); }
+.prose figcaption { margin-top: 12px; font-family: var(--mono); font-size: 0.74rem; color: var(--text-muted); }
