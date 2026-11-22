@@ -1,6 +1,6 @@
 ---
 title: "The AI Lab at the University of Chicago Law School Releases Free Tool to Help Renters Analyze Their Lease and Understand Their Legal Rights Nationwide"
-date: 2025-12-01
+date: 2025-12-05
 author: UChicago AI Lab
 category: Press release
 summary: The AI Lab launched LeaseChat, a free AI tool that helps renters across the country analyze their lease and understand their legal rights.
