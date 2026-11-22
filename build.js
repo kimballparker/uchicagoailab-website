@@ -103,7 +103,7 @@ function postCard(p, root) {
         <div class="post-card__meta"><span class="tag">${esc(p.category || "Essay")}</span><span>${fmtDate(p.date)}</span></div>
         <h3>${esc(p.title)}</h3>
         <p>${esc(p.summary || "")}</p>
-        <span class="post-card__more">${p.category === "Video" ? "Watch" : "Read"} <span aria-hidden="true">→</span></span>
+        <span class="post-card__more">${p.category === "Video" || p.video ? "Watch" : "Read"} <span aria-hidden="true">→</span></span>
       </a>`;
 }
 
