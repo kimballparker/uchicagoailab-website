@@ -14,10 +14,10 @@ AI has made building software dramatically easier. An idea that once took a team
 
 That changes what law schools need to teach. Showing students how to build something isn't enough anymore. The harder and more valuable skill is what comes next: getting people to actually use it. How do you drive adoption inside your organization? How do you sell to customers? How do you gather user feedback and keep iterating until a rough idea becomes something great?
 
-So this year, the goal isn't to just launch a product. It's to create a startup. Students will build the product quickly, then spend most of the term on the hard part: users, customers, feedback, and iteration. If the product gains traction, we will seek funding and turn the project into a business.
+So this year, the goal isn't to just launch a product. It's to create a startup. Students will build the prototypes quickly, then spend most of the term on the hard part: talking to potential users, driving awareness, selling the product, gathering feedback, and iterating on the product. If the product gains traction, we will seek funding and turn the project into a business.
 
 <figure>
-  <img src="../assets/posts/term-shift.svg" alt="Before, building the product filled most of the term and ended in a demo. This year, building takes a couple of days, and the rest of the term cycles through users, customers, feedback, and iteration until the product is great." loading="lazy">
+  <img src="../assets/posts/term-shift.svg" alt="Before, building the product filled most of the term and ended in a demo. This year, building takes a couple of days, and the rest of the term cycles through talking to users, driving awareness, selling, gathering feedback, and iterating until the product is great." loading="lazy">
   <figcaption>Building used to be the whole term. Now it's the first few days.</figcaption>
 </figure>
 
