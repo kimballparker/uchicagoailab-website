@@ -1,5 +1,5 @@
 ---
-title: "The AI Lab's New Term: Building a Real Startup, and Taking On AI's Privilege Problem"
+title: "The AI Lab's New Term: Building an AI Startup, and Taking On AI's Privilege Problem"
 date: 2026-11-21
 author: UChicago AI Lab
 category: Announcement
