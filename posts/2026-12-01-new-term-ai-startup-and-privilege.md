@@ -1,6 +1,6 @@
 ---
 title: "The AI Lab's New Term: Building an AI Startup, and Taking On AI's Privilege Problem"
-date: 2026-11-21
+date: 2026-12-01
 author: UChicago AI Lab
 category: Announcement
 summary: This term, AI Lab students will launch a full AI startup and build an AI platform designed to protect the sensitive conversations people are already having with AI.
