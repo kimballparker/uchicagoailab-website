@@ -12,12 +12,12 @@ The University of Chicago Law School AI Lab is starting its new term with two bi
 
 AI has made building software dramatically easier. An idea that once took a team of engineers months can now be prototyped in a couple of days. Plenty of law students have already tried it on their own. That's what we saw in last year's Lab.
 
-That changes what law schools need to teach. Showing students how to build something isn't enough anymore. The harder and more valuable skill is what comes next: getting people to actually use it. How do you drive adoption inside your organization? How do you sell to customers? How do you gather user feedback and keep iterating until a rough idea becomes something great?
+That changes what law schools need to teach. Showing students how to build something isn't enough anymore. The harder and more valuable skill is what comes next: getting people to actually use the tool you build. How do you drive adoption inside your organization? How do you sell to customers? How do you gather user feedback and keep iterating until a rough idea becomes something great?
 
-So this year, the goal isn't to just launch a product. It's to create a startup. Students will build the prototypes quickly, then spend most of the term on the hard part: talking to potential users, driving awareness, selling the product, gathering feedback, and iterating on the product. If the product gains traction, we will seek funding and turn the project into a business.
+So this year, the goal isn't to just launch a product. It's to ***create a startup.*** Students will build prototypes quickly, then spend most of the term on the hard part: talking to potential users, driving awareness, selling the product, processing feedback, and iterating. If the product gains traction, we will seek funding and turn the project into a business.
 
 <figure>
-  <img src="../assets/posts/term-shift.svg" alt="Before, building the product filled most of the term and ended in a demo. This year, building takes a couple of days, and the rest of the term goes to talking to users, driving awareness, selling, gathering feedback, and iterating." loading="lazy">
+  <img src="../assets/posts/term-shift.svg" alt="Before, building the product filled most of the term and ended in a demo. This year, building takes a couple of days, and the rest of the term goes to talking to users, driving awareness, selling, processing feedback, and iterating." loading="lazy">
   <figcaption>Building used to be the whole term. Now it's the first few days.</figcaption>
 </figure>
 
