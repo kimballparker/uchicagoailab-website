@@ -140,4 +140,38 @@
       }
     });
   }
+
+  // Slide deck viewer (blog posts)
+  document.querySelectorAll("[data-deck]").forEach((deck) => {
+    const slides = [...deck.querySelectorAll(".deck__stage img")];
+    const prev = deck.querySelector("[data-deck-prev]");
+    const next = deck.querySelector("[data-deck-next]");
+    const count = deck.querySelector("[data-deck-count]");
+    let i = 0;
+    const show = (n) => {
+      i = Math.max(0, Math.min(slides.length - 1, n));
+      slides.forEach((s, k) => s.classList.toggle("is-active", k === i));
+      [i + 1, i + 2].forEach((k) => slides[k] && slides[k].removeAttribute("loading"));
+      count.textContent = `${i + 1} / ${slides.length}`;
+      prev.disabled = i === 0;
+      next.disabled = i === slides.length - 1;
+    };
+    prev.addEventListener("click", () => show(i - 1));
+    next.addEventListener("click", () => show(i + 1));
+    deck.tabIndex = 0;
+    deck.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowRight") { show(i + 1); e.preventDefault(); }
+      if (e.key === "ArrowLeft") { show(i - 1); e.preventDefault(); }
+    });
+    let x0 = null;
+    deck.addEventListener("touchstart", (e) => (x0 = e.touches[0].clientX), { passive: true });
+    deck.addEventListener("touchend", (e) => {
+      if (x0 === null) return;
+      const dx = e.changedTouches[0].clientX - x0;
+      if (Math.abs(dx) > 40) show(i + (dx < 0 ? 1 : -1));
+      x0 = null;
+    });
+    deck.classList.add("is-ready");
+    show(0);
+  });
 })();
