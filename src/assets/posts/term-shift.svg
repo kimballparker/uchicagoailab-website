@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 350" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 290" role="img" aria-labelledby="t d">
   <title id="t">From teaching students to build to teaching them to succeed</title>
-  <desc id="d">Before, building the product took most of the term and ended in a demo. This year, building prototypes takes a couple of days, and the rest of the term cycles through talking to users, driving awareness, selling, gathering feedback, and iterating, forward and back, until the product is great.</desc>
+  <desc id="d">Before, building the product took most of the term and ended in a demo. This year, building prototypes takes a couple of days, and the rest of the term goes to talking to users, driving awareness, selling, gathering feedback, and iterating.</desc>
   <style>
     .lbl{font:600 12px Inter,system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:.12em;fill:#5f5757;text-transform:uppercase}
     .in{font:600 15px Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
@@ -8,8 +8,7 @@
     .sm{font:500 13px Inter,system-ui,-apple-system,"Segoe UI",sans-serif;fill:#5f5757}
     .ser{font:italic 500 17px "EB Garamond",Garamond,Georgia,serif;fill:#800000}
   </style>
-  <defs><marker id="ah" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#800000"/></marker></defs>
-  <rect width="740" height="350" rx="18" fill="#ffffff"/>
+  <rect width="740" height="290" rx="18" fill="#ffffff"/>
   <text class="lbl" x="28" y="68">The old focus</text>
   <rect x="170" y="40" width="452" height="44" rx="8" fill="#800000"/>
   <text class="in" x="396" y="67" fill="#fff" text-anchor="middle">Build the product</text>
@@ -19,10 +18,7 @@
   <rect x="170" y="170" width="40" height="52" rx="8" fill="#800000"/>
   <text class="sm" x="190" y="158" text-anchor="middle" style="fill:#800000;font-weight:600">Build</text>
   <g class="bx" text-anchor="middle"><rect x="216.0" y="170" width="94.4" height="52" rx="8" fill="#ecebe4"/><text x="263.2" y="201"><tspan x="263.2" dy="-8">Talk to</tspan><tspan x="263.2" dy="17">users</tspan></text><rect x="316.4" y="170" width="94.4" height="52" rx="8" fill="#ecebe4"/><text x="363.6" y="201"><tspan x="363.6" dy="-8">Drive</tspan><tspan x="363.6" dy="17">awareness</tspan></text><rect x="416.8" y="170" width="94.4" height="52" rx="8" fill="#ecebe4"/><text x="464.0" y="201"><tspan x="464.0" dy="0">Sell</tspan></text><rect x="517.2" y="170" width="94.4" height="52" rx="8" fill="#ecebe4"/><text x="564.4" y="201"><tspan x="564.4" dy="-8">Gather</tspan><tspan x="564.4" dy="17">feedback</tspan></text><rect x="617.6" y="170" width="94.4" height="52" rx="8" fill="#ecebe4"/><text x="664.8" y="201"><tspan x="664.8" dy="0">Iterate</tspan></text></g>
-  <path d="M263 164 C263 118 665 118 665 160" fill="none" stroke="#800000" stroke-width="2" marker-end="url(#ah)"/>
-  <path d="M665 228 C665 274 263 274 263 232" fill="none" stroke="#800000" stroke-width="2" marker-end="url(#ah)"/>
-  <text class="ser" x="464" y="294" text-anchor="middle">repeat until it's great</text>
-  <line x1="170" y1="314" x2="712" y2="314" stroke="#d6d6ce" stroke-width="2"/>
-  <text class="sm" x="170" y="336">Start of term</text>
-  <text class="sm" x="712" y="336" text-anchor="end">End of term</text>
+  <line x1="170" y1="252" x2="712" y2="252" stroke="#d6d6ce" stroke-width="2"/>
+  <text class="sm" x="170" y="274">Start of term</text>
+  <text class="sm" x="712" y="274" text-anchor="end">End of term</text>
 </svg>

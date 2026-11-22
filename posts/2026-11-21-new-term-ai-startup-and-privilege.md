@@ -17,7 +17,7 @@ That changes what law schools need to teach. Showing students how to build somet
 So this year, the goal isn't to just launch a product. It's to create a startup. Students will build the prototypes quickly, then spend most of the term on the hard part: talking to potential users, driving awareness, selling the product, gathering feedback, and iterating on the product. If the product gains traction, we will seek funding and turn the project into a business.
 
 <figure>
-  <img src="../assets/posts/term-shift.svg" alt="Before, building the product filled most of the term and ended in a demo. This year, building takes a couple of days, and the rest of the term cycles through talking to users, driving awareness, selling, gathering feedback, and iterating until the product is great." loading="lazy">
+  <img src="../assets/posts/term-shift.svg" alt="Before, building the product filled most of the term and ended in a demo. This year, building takes a couple of days, and the rest of the term goes to talking to users, driving awareness, selling, gathering feedback, and iterating." loading="lazy">
   <figcaption>Building used to be the whole term. Now it's the first few days.</figcaption>
 </figure>
 
