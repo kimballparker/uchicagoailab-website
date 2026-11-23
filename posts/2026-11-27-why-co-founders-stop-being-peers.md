@@ -35,11 +35,6 @@ The CEO also stops doing most of the work. The difference is that the CEO keeps 
 
 Founders judge their roles against each other. At the start the roles are comparable. Equity and titles are set then, and they often do not change. A few years later one founder is involved in every part of the business, and each of the others runs one function.
 
-<figure>
-  <img src="../assets/posts/co-founders/gap-flow.svg" alt="The company grows. It needs specialists for the functions the founders covered on the side, so the other founders keep their specialty and give up the rest. Specialists need someone who sees across every function, so the CEO keeps authority over all of it. Founders who began as peers are no longer peers, which produces tension that can contribute to the team breaking apart." loading="lazy">
-  <figcaption>Growth opens a gap between founders, and the gap produces tension.</figcaption>
-</figure>
-
 No single decision causes this. Each hire makes sense on its own. The gap comes from the sum of them, and it can produce tension that contributes to a founding team breaking apart.
 
 ## What founders can do
