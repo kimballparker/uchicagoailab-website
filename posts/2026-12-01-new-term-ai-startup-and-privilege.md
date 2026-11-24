@@ -31,7 +31,7 @@ When someone chats with an AI assistant, there's no person on the other side. Th
 
 This year, the Lab will build an AI platform designed to protect that information, so people can get help from AI without giving up the privilege they would have with a human professional.
 
-"Privilege and AI is one of the trickiest, and most fascinating, problems in law today," Parker said. "People are revealing sensitive information to AI. We want to build something that protects them when they do."
+"Privilege and AI is one of the trickiest, and most fascinating, problems in law today," Parker said. "People are revealing sensitive information to AI. And we want to build something that protects them when they do."
 
 ## About the AI Lab
 
