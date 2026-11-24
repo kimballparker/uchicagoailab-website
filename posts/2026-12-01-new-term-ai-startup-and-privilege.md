@@ -35,4 +35,4 @@ This year, the Lab will build an AI platform designed to protect that informatio
 
 ## About the AI Lab
 
-The University of Chicago Law School AI Lab builds AI products each year aimed at making law more accessible. The Lab is led by Kimball Dean Parker, who previously founded LawX, the legal design lab at BYU Law School, and [SixFifty](https://www.sixfifty.com), an HR compliance platform acquired by Paychex in 2025.
+The University of Chicago Law School AI Lab builds AI products each year aimed at making law more accessible. The Lab is led by Kimball Dean Parker, a graduate of the Law School who previously founded LawX, the legal design lab at BYU Law School, and [SixFifty](https://www.sixfifty.com), an HR compliance platform acquired by Paychex in 2025.
