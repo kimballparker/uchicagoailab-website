@@ -10,7 +10,7 @@ The University of Chicago Law School AI Lab is starting a new term with two big 
 
 ## Building is the easy part now
 
-AI has made building software dramatically easier. An idea that once took a team of engineers months to create can now be prototyped in a couple of days. Plenty of law students have already built things on their own. That's what we saw in last year's Lab.
+AI has made building software dramatically easier. An idea that once took a team of engineers months to create can now be prototyped in a couple of days. Plenty of law students have already built things on their own with AI. That's what we saw in last year's Lab.
 
 That changes what law schools need to teach. Showing students how to build something isn't enough anymore. The harder and more valuable skill is what comes next: getting people to actually use the tool you build. How do you drive adoption inside your organization? How do you sell to customers? How do you process user feedback and iterate?
 
